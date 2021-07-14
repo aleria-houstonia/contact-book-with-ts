@@ -1,0 +1,47 @@
+.add-things {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+input {
+    width: 400px;
+    height: 55px;
+    outline-color: rgb(61, 21, 196);
+    outline-offset: 8px;
+    margin-bottom: 20px;
+}
+[placeholder] {
+    text-align: center;
+    font-size: 30px;
+}
+.addContacts {
+    width: 200px;
+    height: 50px;
+}
+
+@media all and (max-width: 425px) {
+    input {
+        width: 350px;
+        height: 40px;
+        outline-offset: 8px;
+        margin-bottom: 10px;
+    }
+}
+@media all and (max-width: 375px) {
+    [placeholder] {
+        text-align: center;
+        font-size: 20px;
+    }
+    input {
+        width: 250px;
+        height: 25px;
+        outline-offset: 4px;
+        margin-bottom: 5px;
+    }
+    .addContacts {
+        width: 100px;
+        height: 40px;
+    }
+}

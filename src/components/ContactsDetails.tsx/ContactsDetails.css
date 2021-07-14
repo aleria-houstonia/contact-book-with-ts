@@ -1,0 +1,21 @@
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.details-img img {
+    margin: 40px 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.details-text {
+    margin: 10px 0;
+}
+.details-elem {
+    margin: 30px;
+    font-size: 25px;
+}
