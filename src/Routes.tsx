@@ -13,8 +13,6 @@ import Contacts from "./components/Contacts/Contacts";
 import ContactsDetails from "./components/ContactsDetails.tsx/ContactsDetails";
 
 const Routes = () => {
-    const history = useHistory();
-
     return (
         <div>
             <ContactContextProvider>
