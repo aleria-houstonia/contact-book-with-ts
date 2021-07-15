@@ -1,28 +1,12 @@
 {
   "contacts": [
     {
-      "name": "Aiperi",
-      "number": "0502444882",
-      "email": "uwuowo733@gmail.com",
-      "address": "Bishkek",
-      "img": "https://www.meme-arsenal.com/memes/a106e1cd24cfc8ac3cd655ddbf96c83e.jpg",
-      "id": 1
-    },
-    {
-      "name": "Stella",
-      "number": "1111111",
-      "email": "stella@sun.sun",
-      "address": "Solaris",
-      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGGXXzPEgmc_AYKNfvrV_j-w2Rms20FYb-law7ey3dNtZWYd7-GjKf7n-f4Vb6yG073h0&usqp=CAU",
+      "name": "Blum",
+      "number": "111111111",
+      "email": "Blum@gmail.com",
+      "address": "----",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoje4onmNfEf5AavB04BIU7nL3jYmHRhn3y5gtwOGULmvfZYddftqEudr4UtzrZviK_YU&usqp=CAU",
       "id": 2
-    },
-    {
-      "name": "SKY",
-      "number": "02222222222",
-      "email": "token@gmail.com",
-      "address": "Eraklyon",
-      "img": "https://i.pinimg.com/originals/db/bc/8d/dbbc8d41f3a054f6d556a25a7a685bf8.jpg",
-      "id": 3
     }
   ]
 }

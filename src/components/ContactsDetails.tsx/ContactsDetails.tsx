@@ -44,7 +44,7 @@ const ContactsDetails = (props: any) => {
         setButtonId(id);
     };
     return (
-        <div>
+        <div className="main">
             {contactDetails ? (
                 <div key={contactDetails.id} className="contacts">
                     {edit && buttonId == contactDetails.id ? (
@@ -65,12 +65,14 @@ const ContactsDetails = (props: any) => {
                             <textarea name="img" onChange={handleValue}>
                                 {contactDetails.img}
                             </textarea>
-                            <button
+                            <Button
+                                className="save-btn"
+                                variant="contained"
+                                color="primary"
                                 onClick={() => handleSave(contactDetails.id)}
                             >
-                                {" "}
                                 Save
-                            </button>
+                            </Button>
                         </div>
                     ) : (
                         <div className="details">
@@ -105,12 +107,6 @@ const ContactsDetails = (props: any) => {
                                     Address: {contactDetails.address}
                                 </div>
 
-                                <div
-                                    className="details-elem"
-                                    key={contactDetails.id + "g"}
-                                >
-                                    Email: {contactDetails.email}
-                                </div>
                                 <div style={{ textAlign: "center" }}>
                                     <Link to="/">
                                         <Button
